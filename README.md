@@ -1,9 +1,28 @@
-            
-            
-            
-            
+
+
+
             //--------------------------------------------------------------//
-            //part-1: While Loops
+            ////part-1: While Loops
+
+            //int x = 1;
+            //while (x > 0)
+            //{
+            //    Console.WriteLine("hello");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------//
+
+            //int x = 0;
+            //while (x<5)
+            //{
+            //    Console.WriteLine("hello");
+            //    x++;
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------//
+            ////part-1: While Loops
 
             //int runningTotal = 0;
             //Console.WriteLine("Enter a number, or -1 to quit");
@@ -16,21 +35,18 @@
             //}
             ////here this is break point
             //Console.WriteLine("The total is {0}", runningTotal);
+            //Console.ReadLine();
 
-            //--------------------------------------------------------------//
+            //-------//------------//--------//--------//---------//--------//----------//
             //part-2: For Loops
 
-            //int x = 0;
-            //while (x < 5)
+            //for (int i=0;i<5;i++)
             //{
             //    Console.WriteLine("Hello");
-            //    x++;
             //}
+            //Console.ReadLine();
 
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    Console.WriteLine("hello");
-            //}
+            //--------------------------------------------------------------//
 
             //Console.WriteLine("Enter an amount of times to print hello");
             //int amount = int.Parse(Console.ReadLine());
@@ -39,11 +55,13 @@
             //{
             //    Console.WriteLine("hello");
             //}
+            //Console.ReadLine();
 
-            //--------------------------------------------------------------//
+            //-------//------------//--------//--------//---------//--------//----------//
             //part-3:Do While Loops
 
-            //WHILE LOOP-------------------
+            //WHILE LOOP-------------------//
+
             //Console.WriteLine("hello");
             //string response = Console.ReadLine();
             //while (response == "again")
@@ -51,15 +69,19 @@
             //    Console.WriteLine("hello");
             //    response = Console.ReadLine();
             //}
-            //DO WHILE LOOP----------------------------
+            //Console.ReadLine();
+
+            //DO WHILE LOOP----------------------------//
+
             //string response;
             //do
             //{
             //    Console.WriteLine("hello");
             //    response = Console.ReadLine();
             //} while (response == "again");
+            //Console.ReadLine();
 
-            //--------------------------------------------------------------//
+            //-------//------------//--------//--------//---------//--------//----------//
             //part-4:Nested Loops
 
             //int size = 15;
@@ -71,5 +93,25 @@
             //    }
             //    Console.WriteLine();
             //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------//
+
+            //Console.WriteLine("----------------------------------------------------");
+            //int i, j;
+            //for (i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine("");
+            //    for (j = 1; j <= 10; j++)
+            //    {
+
+            //        Console.Write("{0,4}", i * j);
+
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //Console.WriteLine("");
+            //Console.WriteLine("----------------------------------------------------");
+            //Console.ReadLine();
 
             //--------------------------------------------------------------//
